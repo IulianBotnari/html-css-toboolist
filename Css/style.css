@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bool-azzurro: color:47adf1;
+    --bool-viola: color:9c72e4;
+    --bool-verdeacqua: color:64c0a8;
+    --bool-arancione: color:f29e33;
+    --bool-rosa: color:d863a0;
+    --bool-verde: color:b0c926;
+}
+
+/* utility */
