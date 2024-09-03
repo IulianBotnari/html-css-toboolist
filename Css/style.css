@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    
 }
+
 
 :root{
     --bool-azzurro: color: #47adf1;
@@ -14,10 +15,51 @@
     --bool-verde: color: #b0c926;
 }
 
+.marginY{
+    margin-top: 0.8rem;
+}
+
 .margin_left{
     margin-left: 4rem;
 }
+
+.type{
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 0.6rem;
+    margin-left: 1rem;
+    display: inline-block;
+    
+}
+
+.q1goals{
+    background-color: #9c72e4;
+    border: 5px solid #9c72e4;
+
+}
+
+.recruiting{
+    background-color: #64c0a8;
+    border: 5px solid #64c0a8;
+}
+
+.mobile{
+    background-color: #f29e33;
+    border: 5px solid #f29e33;
+}
+
+.website{
+    background-color: #d863a0;
+    border: 5px solid #d863a0;
+}
+
+.sales{
+    background-color: #b0c926;
+    border: 5px solid #b0c926;
+}
+
 /* utility */
+
 body{
     background-color: lightgray;
 }
@@ -34,6 +76,9 @@ h1{
 main{
     width: 70%;
     margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
 }
 
 .add_task{
@@ -59,17 +104,17 @@ main{
 nav{
     width: 100%;
     height: 4rem;
-    background-color: white;
     margin-top: 3rem;
     margin-bottom: 0.1rem;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-bottom: 2px solid lightgray;
+    
 }
 
 section{
     width: 100%;
     margin: auto;
     background-color: white;
+    margin-top: 2rem;
     
 }
 
@@ -86,7 +131,8 @@ span{
     border-radius: 10px;
     color: #ffffff;
     display: inline-block;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     margin-left: 1rem;
-    border: 3px solid #47adf1;
+    border: 5px solid #47adf1;
 }
+
