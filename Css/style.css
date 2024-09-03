@@ -7,12 +7,13 @@
 
 
 :root{
-    --bool-azzurro: color: #47adf1;
-    --bool-viola: color: #9c72e4;
-    --bool-verdeacqua: color: #64c0a8;
-    --bool-arancione: color: #f29e33;
-    --bool-rosa: color: #d863a0;
-    --bool-verde: color: #b0c926;
+    --bool-azzurro:#47adf1;
+    --bool-viola:#9c72e4;
+    --bool-verdeacqua:#64c0a8;
+    --bool-arancione:#f29e33;
+    --bool-rosa:#d863a0;
+    --bool-verde:#b0c926;
+    --bool-grigio: #f6f8f9;
 }
 
 .marginY{
@@ -33,35 +34,35 @@
 }
 
 .q1goals{
-    background-color: #9c72e4;
-    border: 5px solid #9c72e4;
+    background-color: var(--bool-viola);
+    border: 5px solid var(--bool-viola);
 
 }
 
 .recruiting{
-    background-color: #64c0a8;
-    border: 5px solid #64c0a8;
+    background-color: var(--bool-verdeacqua);
+    border: 5px solid var(--bool-verdeacqua);
 }
 
 .mobile{
-    background-color: #f29e33;
-    border: 5px solid #f29e33;
+    background-color: var(--bool-arancione);
+    border: 5px solid var(--bool-arancione);
 }
 
 .website{
-    background-color: #d863a0;
-    border: 5px solid #d863a0;
+    background-color: var(--bool-rosa);
+    border: 5px solid var(--bool-rosa);
 }
 
 .sales{
-    background-color: #b0c926;
-    border: 5px solid #b0c926;
+    background-color: var(--bool-verde);
+    border: 5px solid var(--bool-verde);
 }
 
 /* utility */
 
 body{
-    background-color: lightgray;
+    background-color:var(--bool-grigio);
 }
 .container{
     background-color: white;
