@@ -14,6 +14,9 @@
     --bool-verde: color: #b0c926;
 }
 
+.margin_left{
+    margin-left: 4rem;
+}
 /* utility */
 body{
     background-color: lightgray;
@@ -59,10 +62,31 @@ nav{
     background-color: white;
     margin-top: 3rem;
     margin-bottom: 0.1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 section{
     width: 100%;
     margin: auto;
     background-color: white;
+    
+}
+
+span{
+    font-size: medium;
+}
+
+.task{
+    display: inline-block;
+}
+
+.editorial{
+    background-color: #47adf1;
+    border-radius: 10px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    border: 3px solid #47adf1;
 }
