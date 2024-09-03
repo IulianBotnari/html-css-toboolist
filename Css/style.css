@@ -2,15 +2,60 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 :root{
-    --bool-azzurro: color:47adf1;
-    --bool-viola: color:9c72e4;
-    --bool-verdeacqua: color:64c0a8;
-    --bool-arancione: color:f29e33;
-    --bool-rosa: color:d863a0;
-    --bool-verde: color:b0c926;
+    --bool-azzurro: color: #47adf1;
+    --bool-viola: color: #9c72e4;
+    --bool-verdeacqua: color: #64c0a8;
+    --bool-arancione: color: #f29e33;
+    --bool-rosa: color: #d863a0;
+    --bool-verde: color: #b0c926;
 }
 
 /* utility */
+body{
+    background-color: lightgray;
+}
+.container{
+    background-color: white;
+}
+
+h1{
+    display: inline-block;
+    vertical-align: 30%;
+    font-size: 3rem;
+}
+
+main{
+    width: 70%;
+    margin: auto;
+}
+
+.add_task{
+    background-color: aqua;
+    border-radius: 10px;
+    font-size: 25px;
+    border: none;
+    border: 2px solid aqua;
+    color: white;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+.add_section{
+    border-radius: 10px;
+    font-size: 25px;
+    color:  lightgray;
+    background-color: white;
+    border: 2px solid lightgrey;
+    
+}
+
+nav{
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    margin-top: 3rem;
+}
