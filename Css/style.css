@@ -6,6 +6,7 @@
 }
 
 
+
 :root{
     --bool-azzurro:#47adf1;
     --bool-viola:#9c72e4;
@@ -63,6 +64,9 @@
 
 body{
     background-color:var(--bool-grigio);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 .container{
     background-color: white;
